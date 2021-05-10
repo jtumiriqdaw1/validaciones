@@ -17,9 +17,15 @@
     </header>
 
     <nav>
-    <!--  COMPLETA -->
-        <a href=""></a> 
+    <!--  COMPLETA ya esta -->
+        <a href="recogeDatos.php 
+        
+        ">validar</a> 
     </nav>
 
     <main>
+
+
+
+    
         <section>
