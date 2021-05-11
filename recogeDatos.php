@@ -19,9 +19,9 @@ include "includes/cabecera.php";
         <label>&nbsp;</label>
         <p>¿Qué aficiones tienes?</p><br />
 
-            <!--  COMPLETA -->
+            <!--  COMPLETA ya-->
 
-        <select name="">
+        <select name="aficiones[]"  multiple= 'multiple'>
             <option value="cine" >Cine</option>
             <option value="lectura">Lectura</option>
             <option value="deporte">Deporte</option>
