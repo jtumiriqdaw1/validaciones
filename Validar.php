@@ -9,13 +9,13 @@ include "helper/funciones.php";
 $reglasValidacion =array(
     $_POST['nombre']=>array("required" => true),
     $_POST['edad']=>array("required" => true,"maxlength"=>2),
-    $_POST['aficiones[]']=>array("required" => true)
-)
+    $_POST['aficiones[]']=>array("required" => false)
+);
 
 //Se llama a la función Validar con los datos de las reglas de validación y los datos del formulario
 // COMPLETA
 
-    $errores = validar(-----------);
+    $errores = validar();
   
     if (empty($errores)) {
           // Si el array() $errores está vacío los datos son correctos

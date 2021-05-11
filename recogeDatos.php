@@ -4,7 +4,7 @@ include "includes/cabecera.php";
 ?>
     <!--  COMPLETA -->
 
-<form id='formul4' name="formul4" action="" method="">
+<form id='formul4' name="formul4" action="validar.php" method="post">
     <div>
         <label>Nombre</label>
         <input type="text" name="nombre" /><br />

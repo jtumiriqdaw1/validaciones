@@ -9,8 +9,9 @@ function verArray($array)
 }
 
 //COMPLETA la Función validar()
-function validar(---------------)
-{
+function validar($campos, $reglas) {
+    $errores=array();
+
     // Se crea el array $errores
     // Se recorre el array de reglas y el array de 
 
@@ -23,8 +24,8 @@ function validar(---------------)
 
     //COMPLETA
 
-
-
-    }
     return // El array de errores
+
 }
+    
+
